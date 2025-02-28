@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <title>Shiny Rose</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <div class="App">
+    <div class="rose-container" id="rose-container">
+      <svg
+        class="rose-svg"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 200 300"
+      >
+        <path
+          class="rose-petal"
+          fill="red"
+          d="M100,30 C130,10 170,40 150,80 C140,100 110,120 100,130 C90,120 60,100 50,80 C30,40 70,10 100,30"
+        />
+        <path
+          class="rose-petal"
+          fill="darkred"
+          d="M100,40 C120,20 150,50 140,80 C130,100 110,110 100,120 C90,110 70,100 60,80 C50,50 80,20 100,40"
+        />
+        <rect
+          x="95"
+          y="120"
+          width="10"
+          height="150"
+          fill="green"
+          class="rose-stem"
+        />
+        <ellipse
+          cx="70"
+          cy="160"
+          rx="25"
+          ry="15"
+          fill="green"
+          class="rose-leaf"
+        />
+        <ellipse
+          cx="130"
+          cy="160"
+          rx="25"
+          ry="15"
+          fill="green"
+          class="rose-leaf"
+        />
+      </svg>
+      <p class="vText">Happy Birthday Ely</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
